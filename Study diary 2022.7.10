@@ -1,0 +1,10 @@
+//关于第一个c程序的小问题汇总
+//1.引用头文件，语法注意： #include <stdio.h>
+//2.主函数函数体内，分号（；）勿缺失
+//正确示例：
+#include <stdio.h>
+#int main()
+{
+   printf("hello world");
+   return 0;
+}  

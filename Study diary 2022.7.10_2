@@ -11,7 +11,7 @@
 //利用sizeof得出各数据类型所占空间大小
 #int main()
 {
-   printf("%d\n",sizeof(char));
+   printf("%d\n",sizeof(char));                              //字符后的逗号“，”勿漏
    printf("%d\n",sizeof(short));
    printf("%d\n",sizeof(int));
    printf("%d\n",sizeof(long));

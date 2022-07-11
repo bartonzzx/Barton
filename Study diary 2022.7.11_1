@@ -1,0 +1,51 @@
+#define _CRT_SECURE_NO_WARNINGS	
+//全局变量与局部变量的优先级
+#include <stdio.h>
+//int a = 0;           //定义全局变量勿忘“；”
+// int main()
+//{
+//	printf("%d", a);    
+//	return 0;
+//}
+//int a = 3;
+//int main()
+//{
+//	int a = 2;          //主函数内的每一行都需要“；”
+//		printf("%d\n", a);
+//		return 0;
+//}
+//进行加减运算
+//int main()
+//{
+//	int a = 0;     //变量等于0即为初始化
+//	int b = 0;
+//	int sum = 0;   //错误点：1.若无sum=a=b,此时相当于定义sum=0; 2.打分号时应用英文输入 3.总是忘记分号
+//	scanf("%d %d", &a, &b);
+//	sum = a + b;
+//	printf("sum =%d", sum);
+//	return 0;
+//		 
+//}
+//验证猜想：若scanf中间两个%d无空格，
+//int main()
+//{
+//	int a = 0;       //定义类型与输入类型不符
+//	int b = 0;
+//	int sum = 0;
+//	scanf("%f %f", &a, &b);
+//	sum = a + b;
+//	printf("sum=%lf", sum);
+//	return 0;
+//		 
+//}
+//int main()
+//{
+//	float a = 0;       //定义类型与输入类型不符
+//	float b = 0;
+//	double sum = 0;
+//	scanf("%f %f", &a, &b);
+//	sum = a + b;
+//	printf("sum=%lf", sum);
+//	return 0;
+//
+//}
